@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+}
+
+/* ===BODY=== */
+
+.body{
+    background-image: linear-gradient(rgba(29, 10, 175, 0.858), rgb(7, 2, 47));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 0;
+    width: 100vw;
+}
+
+.body img{
+    padding: 0.4em;
+    background-color: skyblue;
+    border-radius: 100px;
+    box-shadow: 3px 3px 7px skyblue;
+}
+
+.body h2{
+    margin: 0.3em 0;
+    color: skyblue;
+    text-shadow: 1px 1px 5px;
+    font-size: 2.1em;
+}
+
+.body h3{
+    color: #fff;
+}
+
+/* ===HEADER=== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 0.3em 0;
+    width: 100vw;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: #fff;
+    font-size: 0.8em;
+    align-items: center;
+    padding: 0 6px;
+    justify-content: space-around;
+}
+
+header nav ul li a{
+    color: #fff;
+}
+
+header nav ul li a:hover{
+    color: #000;
+    transition-duration: 3s;
+}
+
+
+/* ===BODY-1=== */
+
+.body-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(143, 143, 143, 0.545), rgba(2, 2, 2, 0.844));
+    padding: 2em 0;
+}
+
+.body-1 img{
+    padding: 0.4em;
+    background-color: skyblue;
+    border-radius: 15px;
+    box-shadow: 5px 5px 7px #000;
+}
+
+.body-1 h2{
+    margin: 0.1em;
+}
+
+.body-1 h3{
+    margin: 0.11em;
+    font-size: 1.4em;
+    color: blue;
+    font-weight: bolder;
+}
+
+.body-1 p{
+    width: 95vw;
+    text-align: center;
+}
+
+
+/* ===BODY-2=== */
+.body-2{
+    padding: 2em 0.6em;
+    display: flex;
+    flex-direction: column;
+    /* width: 90vw; */
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.body-2 .graphics{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-2 .graphics .empty-1{
+    height: 200px;
+    width: 200px;
+    background-image: url(../Images/logo3.png);
+    background-position: center;
+    background-size: contain;
+    margin: 0.7em;
+    border-radius: 200px;
+}
+
+.body-2 .graphics h2{
+    color: blue;
+    text-shadow: 1px 1px 7px;
+}
+
+.body-2 .graphics p{
+    text-align: center;
+    padding: 0.4em 0;
+}
+
+.body-2 .mockup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-2 .mockup .empty-2{
+    height: 200px;
+    width: 200px;
+    background-image: url(../Images/MIKEWORK5.jpg);
+    background-position: center;
+    background-size: contain;
+    margin: 0.7em 0;
+    border-radius: 200px;
+}
+
+.body-2 .mockup h2{
+    color: blue;
+    text-shadow: 2px 2px 7px;
+}
+
+.body-2 .mockup p{
+    text-align: center;
+    padding: 0.4em 0;
+}
+
+.body-2 .cinema {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-2 .cinema .empty-3{
+    height: 200px;
+    width: 200px;
+    background: #000;
+    background-position: center;
+    background-size: contain;
+    margin: 0.7em 0;
+    border-radius: 200px;
+}
+
+.body-2 .cinema h2{
+    color: blue;
+    text-shadow: 2px 2px 7px;
+}
+
+.body-2 .cinema p{
+    text-align: center;
+    padding: 0.4em 0;
+}
+
+.body-2 .photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-2 .photo .empty-4{
+    height: 200px;
+    width: 200px;
+    background-image: url(../Images/photo.jpg);
+    background-position: center;
+    background-size: contain;
+    margin: 0.7em 0;
+    border-radius: 200px;
+}
+
+.body-2 .photo h2{
+    color: blue;
+    text-shadow: 2px 2px 7px;
+}
+
+.body-2 .photo p{
+    text-align: center;
+    padding: 0.7em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===FOOTER=== */
+
+footer{
+    background-color: blue;
+    color: #fff;
+}
