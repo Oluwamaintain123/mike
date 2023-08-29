@@ -123,7 +123,7 @@ header nav ul li a:hover{
 .body-2 .graphics .empty-1{
     height: 200px;
     width: 200px;
-    background-image: url(../Images/logo3.png);
+    background-image: url(logo3.png);
     background-position: center;
     background-size: contain;
     margin: 0.7em;
@@ -149,7 +149,7 @@ header nav ul li a:hover{
 .body-2 .mockup .empty-2{
     height: 200px;
     width: 200px;
-    background-image: url(../Images/MIKEWORK5.jpg);
+    background-image: url(MIKEWORK5.jpg);
     background-position: center;
     background-size: contain;
     margin: 0.7em 0;
@@ -201,7 +201,7 @@ header nav ul li a:hover{
 .body-2 .photo .empty-4{
     height: 200px;
     width: 200px;
-    background-image: url(../Images/photo.jpg);
+    background-image: url(photo.jpg);
     background-position: center;
     background-size: contain;
     margin: 0.7em 0;
